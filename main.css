@@ -1,0 +1,78 @@
+body {
+  font-family: 'Mulish', sans-serif;
+  background: #E5E5E5;
+}
+
+header {
+  margin-top: 2em;
+}
+
+header .element {
+  position: absolute;
+  top: 10%;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 0 15px 0 15px;
+}
+
+header nav ul li a {
+  color: #1F1534;
+  opacity: 0.5;
+  font-weight: normal;
+}
+
+header nav ul li a:hover {
+  opacity: 1;
+  color: #1F1534;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header .header-text h1 {
+  font-weight: bold;
+}
+
+header .header-text p {
+  color: #7D7987;
+  margin: 2em 0 2em 0;
+}
+
+header .header-text button {
+  background: #458FF6;
+  color: #fff;
+  border-radius: 55px;
+  outline: none;
+  border: 0;
+  padding: 10px 30px 10px 30px;
+}
+
+.services {
+  margin-top: 10rem;
+}
+
+.services h1 {
+  font-weight: bold;
+}
+
+.services hr {
+  width: 5%;
+  border: 1px solid #000;
+}
+
+.services p {
+  color: #7D7987;
+}
+
+.services .card {
+  background: #fff;
+  padding: 2em;
+  border-radius: 20px;
+  border-radius: 20px;
+}
+
+.services .card h3 {
+  margin: 1em 0 1em 0;
+}
+/*# sourceMappingURL=main.css.map */
