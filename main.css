@@ -1,6 +1,5 @@
 body {
   font-family: 'Mulish', sans-serif;
-  background: #E5E5E5;
 }
 
 header {
@@ -50,6 +49,11 @@ header .header-text button {
 
 .services {
   margin-top: 10rem;
+  background: url(/images/services-background.png) no-repeat;
+}
+
+.services .element {
+  position: absolute;
 }
 
 .services h1 {
@@ -65,14 +69,197 @@ header .header-text button {
   color: #7D7987;
 }
 
+.services .col-3 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 32%;
+          flex: 0 0 32%;
+  max-width: none;
+}
+
 .services .card {
   background: #fff;
   padding: 2em;
+  border: 0;
   border-radius: 20px;
-  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 20px 0px #E5E9F6;
+          box-shadow: 2px 2px 20px 0px #E5E9F6;
 }
 
 .services .card h3 {
   margin: 1em 0 1em 0;
+}
+
+.services button {
+  background: #fff;
+  font-weight: bold;
+  color: #458FF6;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border: 2px solid #458FF6;
+  border-radius: 25px;
+  outline: 0;
+}
+
+.providers {
+  margin-top: 5em;
+}
+
+.providers h2 {
+  font-weight: bold;
+}
+
+.providers p {
+  color: #7D7987;
+  margin: 3em 0 3em 0;
+}
+
+.providers hr {
+  margin: 3em 0 3em 0;
+  width: 15%;
+  text-align: left;
+  margin-left: 0;
+  border: 1px solid #000;
+}
+
+.providers button {
+  background: #fff;
+  font-weight: bold;
+  color: #458FF6;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border: 2px solid #458FF6;
+  border-radius: 25px;
+  outline: 0;
+}
+
+.download {
+  margin-top: 10em;
+}
+
+.download h2 {
+  font-weight: bold;
+}
+
+.download p {
+  color: #7D7987;
+  margin: 3em 0 3em 0;
+}
+
+.download hr {
+  margin: 3em 0 3em 0;
+  width: 15%;
+  text-align: left;
+  margin-left: 0;
+  border: 1px solid #000;
+}
+
+.download button {
+  background: #fff;
+  font-weight: bold;
+  color: #458FF6;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border: 2px solid #458FF6;
+  border-radius: 25px;
+  outline: 0;
+}
+
+.testimonials {
+  margin-top: 10em;
+}
+
+.testimonials .testimonials-card {
+  position: relative;
+  color: #fff;
+  padding: 50px 80px;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+}
+
+.testimonials .testimonials-card .element {
+  position: absolute;
+  top: -15px;
+  right: -50px;
+}
+
+.testimonials .testimonials-card h2, .testimonials .testimonials-card h5 {
+  font-weight: bold;
+}
+
+.testimonials .testimonials-card p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.testimonials .testimonials-card hr {
+  border: 1px solid #fff;
+  width: 5%;
+}
+
+.testimonials .testimonials-card .avatar {
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.articles {
+  margin: 10em 0;
+  background: url(/images/articles-background.png) no-repeat right;
+}
+
+.articles h2, .articles h5 {
+  font-weight: bold;
+}
+
+.articles hr {
+  width: 5%;
+  border: 1px solid #000;
+}
+
+.articles button {
+  background: #fff;
+  font-weight: bold;
+  color: #458FF6;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border: 2px solid #458FF6;
+  border-radius: 25px;
+  outline: 0;
+}
+
+.articles .card-articles {
+  cursor: pointer;
+  margin: 4em 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  -webkit-box-shadow: 16px 20px 20px 0px rgba(229, 233, 246, 0.4);
+          box-shadow: 16px 20px 20px 0px rgba(229, 233, 246, 0.4);
+}
+
+.articles .card-articles .card-articles-text {
+  padding: 33px;
+}
+
+.articles .card-articles .card-articles-text h2 {
+  font-weight: bold;
+}
+
+.articles .card-articles .card-articles-text p {
+  margin: 1em 0;
+  color: #7D7987;
+}
+
+footer {
+  background: #5B9BF3;
+}
+
+footer .row {
+  padding: 6em 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */
